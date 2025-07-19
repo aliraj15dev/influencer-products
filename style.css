@@ -86,3 +86,20 @@ li a{
     text-align: center;
     box-shadow: 0 0 5px 2px #C0CCDA;
 }
+
+/* popular collection section style */
+.collections{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.collection{
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+    max-width: 330px;
+}
+.feedback{
+    color: orange;
+}

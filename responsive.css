@@ -26,4 +26,17 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 0 10px;
     }
+
+    /* popular collection section responsive */
+    .popular-collecton h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .popular-collecton .collection{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .collections{
+    grid-template-columns: 1fr;
+    }
 }
