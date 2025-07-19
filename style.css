@@ -77,3 +77,12 @@ li a{
     background-image: url("images/Circle-design.svg");
     background-position: center;
 }
+
+/* sponsors section style */
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px 2px #C0CCDA;
+}

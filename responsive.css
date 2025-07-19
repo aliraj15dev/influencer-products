@@ -21,4 +21,9 @@
     text-align: center;
     }
 
+    /* sponsors section responsive */
+    .sponsors{
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 10px;
+    }
 }
