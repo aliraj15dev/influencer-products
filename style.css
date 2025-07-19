@@ -84,7 +84,11 @@ li a{
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
     text-align: center;
+    gap: 20px;
     box-shadow: 0 0 5px 2px #C0CCDA;
+}
+.sponsors img{
+    width: 100%;
 }
 
 /* popular collection section style */
@@ -98,8 +102,42 @@ li a{
     background-color: white;
     padding: 20px 15px;
     border-radius: 5px;
-    max-width: 330px;
+}
+.collection img{
+    width: 100%;
 }
 .feedback{
     color: orange;
+}
+
+/* features section styles */
+.features{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.features img{
+        width: 100%;
+}
+.features .btn{
+    border-radius: 10px;
+}
+
+/* footer style start */
+footer {
+    background-color: #280549;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer p{
+    margin-top: 20px;
+}
+.footer .icon i{
+    margin-top: 20px;
+    margin-right: 20px;
 }
