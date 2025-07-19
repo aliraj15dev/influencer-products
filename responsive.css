@@ -1,5 +1,6 @@
 /* responsive for mobile device */
 @media screen and (max-width:570px) {
+    /* nav responsive start */
     .max-width{
     width: 90%;
     }
@@ -9,4 +10,15 @@
     .menu-bar{
         display: block;
     }
+    /* banner responsive start */
+    .banner{
+    flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 90%;
+    }
+    .banner-description, .banner-img{
+    text-align: center;
+    }
+
 }
