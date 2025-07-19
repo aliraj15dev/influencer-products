@@ -1,0 +1,12 @@
+/* responsive for mobile device */
+@media screen and (max-width:570px) {
+    .max-width{
+    width: 90%;
+    }
+    .menu-links ul{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+}
